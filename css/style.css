@@ -1,0 +1,265 @@
+body {
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  color: #fff;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #efefef 0%,
+    rgba(163, 163, 163, 0.8) 100%
+  );
+  background-attachment: fixed;
+}
+
+a {
+  color: #fff;
+}
+
+h1,
+h3,
+h4,
+h5 {
+  font-family: "Wallpoet", cursive;
+  font-style: normal;
+  font-weight: normal;
+}
+
+h2 {
+  color: #6d6d6d;
+  font-size: 42px;
+  line-height: 55px;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header {
+  background: #2b2b2b;
+  margin: 0 auto;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px 25px;
+  z-index: 1000;
+}
+
+.contain {
+  margin: 0 auto;
+  display: flex;
+}
+
+.section-main__socials {
+  display: flex;
+}
+
+.social__icon {
+  padding-right: 15px;
+}
+
+.social__icon-svg {
+  fill: #fff;
+}
+
+.social__icon-svg:hover {
+  fill: rgb(109, 109, 109);
+}
+
+.section-main__links {
+  display: flex;
+}
+
+.section-main__links li {
+  padding-right: 25px;
+}
+
+.section-main__links li:last-child {
+  padding-right: 0;
+}
+
+.section-main__socials a:last-child {
+  padding-right: 0;
+}
+
+.section-main__links a:hover {
+  color: rgb(109, 109, 109);
+}
+
+.section-main__logo {
+  position: fixed;
+  top: auto;
+  left: 50%;
+}
+
+.section-main {
+  width: auto;
+  height: 100vh;
+  background: url(../img/mainBG.png) center/cover no-repeat;
+}
+
+.section-main__text {
+  position: absolute;
+  top: 43%;
+  left: 13%;
+  text-align: right;
+}
+
+.section-main__title {
+  font-size: 6vw;
+}
+
+.section-main__subtitle {
+  font-size: 1.5vw;
+  margin-right: 10px;
+}
+
+.section-techno {
+  padding-bottom: 80px;
+  display: flex;
+  padding-top: 80px;
+  flex-direction: column;
+  align-items: center;
+  /* background: linear-gradient(
+    180deg,
+    #efefef 0%,
+    rgba(163, 163, 163, 0.8) 100%
+  ); */
+}
+
+.section-techno__wrap {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-techno__col {
+  width: 200px;
+  height: 260px;
+  background: linear-gradient(
+    329.39deg,
+    rgba(120, 120, 120, 0.94) 0%,
+    rgba(157, 157, 157, 0.62) 100%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 47px;
+  z-index: 999;
+}
+
+.section-techno__col h3 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 32px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section-techno__col:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.432);
+  color: #c2c2c2;
+}
+
+.section-techno__columns {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1070px;
+  justify-content: space-around;
+  margin-top: 52px;
+}
+
+.section-techno__col-img {
+  margin-bottom: 30px;
+  height: 60px;
+}
+
+.section-portfolio {
+  /* background: linear-gradient(
+    180deg,
+    rgba(163, 163, 163, 0.8) 100%,
+    #efefef 0%
+  ); */
+}
+
+.section-portfolio__columns {
+  width: 848px;
+  margin: 0 auto;
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.section-portfolio__col {
+  width: 256px;
+  height: 342px;
+  margin-bottom: 33px;
+
+  background: linear-gradient(
+    329.39deg,
+    rgba(120, 120, 120, 0.94) 0%,
+    rgba(157, 157, 157, 0.62) 100%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.section-portfolio__col img {
+  min-width: 100%;
+  min-height: 100%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+}
+
+.section-portfolio__col img:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  text-align: center;
+  color: #fbfbfb;
+  /* background: linear-gradient(
+    180deg,
+    rgba(163, 163, 163, 0.8) 100%,
+    #efefef 0%
+  ); */
+}
+
+.footer__wrap {
+  padding: 30px 0;
+  background: #3e3e3e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__title {
+  padding: 22px 0;
+}
+
+.footer__wrap_title {
+  margin-bottom: 30px;
+  font-family: Wallpoet;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 34px;
+}
+
+.footer__social {
+  margin-bottom: 31px;
+}
+
+.footer__terms {
+  font-weight: 200;
+  font-size: 10px;
+  line-height: 13px;
+}
+
+.footer__terms:hover {
+  color: rgb(109, 109, 109);
+}
