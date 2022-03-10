@@ -174,13 +174,13 @@ header {
   height: 60px;
 }
 
-.section-portfolio {
-  /* background: linear-gradient(
+/* .section-portfolio {
+  background: linear-gradient(
     180deg,
     rgba(163, 163, 163, 0.8) 100%,
     #efefef 0%
-  ); */
-}
+  );
+} */
 
 .section-portfolio__columns {
   width: 848px;
@@ -310,3 +310,4 @@ header {
     margin: 20px 0;
   }
 }
+
