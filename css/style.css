@@ -85,6 +85,21 @@ header {
   color: rgb(109, 109, 109);
 }
 
+.header__hamburger {
+  display: none;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.hamburger__icon {
+  fill: white;
+}
+
+.hamburger__icon:hover {
+  fill: rgb(109, 109, 109);
+}
+
 .section-main__logo {
   position: fixed;
   top: auto;
@@ -280,6 +295,35 @@ header {
   }
 }
 
+@media (max-width: 1000px) {
+  .section-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-main__text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+  }
+  .section-main__title {
+    font-size: 9vw;
+  }
+  .section-main__subtitle {
+    font-size: 2vw;
+    margin: 0;
+  }
+  .section-main__links {
+    display: none;
+  }
+  .header__hamburger {
+    display: block;
+  }
+}
+
 @media (max-width: 860px) {
   .section-techno__columns {
     max-width: 500px;
@@ -300,6 +344,12 @@ header {
   .section-techno__columns {
     max-width: 400px;
   }
+  .section-main__title {
+    font-size: 10vw;
+  }
+  .section-main__subtitle {
+    font-size: 2.3vw;
+  }
 }
 
 @media (max-width: 500px) {
@@ -310,4 +360,3 @@ header {
     margin: 20px 0;
   }
 }
-
