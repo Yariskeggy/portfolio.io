@@ -279,6 +279,10 @@ header {
   color: rgb(109, 109, 109);
 }
 
+.active {
+  display: flex;
+}
+
 @media (max-width: 1220px) {
   .section-techno {
     padding: 40px 0;
@@ -318,6 +322,19 @@ header {
   }
   .section-main__links {
     display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    background: #2b2b2b;
+    padding: 15px;
+  }
+  .section-main__links li {
+    padding-bottom: 15px;
+    padding-right: 0;
+  }
+  .section-main__links li:last-child {
+    padding-bottom: 0;
   }
   .header__hamburger {
     display: block;
@@ -329,9 +346,7 @@ header {
     max-width: 500px;
     margin-top: 0px;
   }
-  .section-main__links {
-    display: none;
-  }
+
   .section-portfolio__columns {
     max-width: 600px;
   }
