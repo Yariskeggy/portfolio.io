@@ -3,6 +3,11 @@ body {
   font-size: 14px;
   color: #fff;
   position: relative;
+}
+
+.gradient {
+  position: absolute;
+  height: 100vh;
   background: linear-gradient(
     180deg,
     #efefef 0%,
